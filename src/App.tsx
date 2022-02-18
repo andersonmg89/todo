@@ -10,12 +10,12 @@ const App = () => {
   const[list, setList] = useState<Item[]>([
     {
       id: 1,
-      name: "Comprar o pão na padaria",
+      name: "Estudar {useState} from react",
       done: false
     },
     {
       id:2,
-      name: "comprar um bolo na padaria",
+      name: "Revisar componentes do ReactJs",
       done: true
     }
   ]);
